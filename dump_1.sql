@@ -28,6 +28,13 @@ insert into `db1`.`transactions` (`paysys`, `sum`, `agremment`)
 	values (4,120.60,'613450');
 insert into `db1`.`transactions` (`paysys`, `sum`, `agremment`) 
 	values (1,99.60,'773450');
+insert into `db1`.`transactions` (`date`, `paysys`, `sum`, `agremment`) 
+	values ('2016-05-02 18:29:21',1,22.60,'773450');
+insert into `db1`.`transactions` (`date`, `paysys`, `sum`, `agremment`) 
+	values ('2016-05-02 18:29:21',2,30.60,'773450');
+insert into `db1`.`transactions` (`date`, `paysys`, `sum`, `agremment`) 
+	values ('2016-05-02 18:29:21',1,40.60,'773450');
+
 
 -- 
 -- Таблица paysys для второй бд
