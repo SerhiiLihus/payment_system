@@ -48,18 +48,18 @@
    Для этого нажимаем на кнопку **Clone or download** -> **Download ZIP**
 
 2. Устанавливаем unzip(для распаковки zip файла)
-	
-	```
-	sudo apt-get install unzip
-	```
-	
-	разархивируем содержимое *.zip файла
+   
+   ```
+   sudo apt-get install unzip
+   ```
+   
+   разархивируем содержимое *.zip файла
 
 
-	```
-	unzip payment_system-master.zip
-	cd payment_system-master
-	```
+   ```
+   unzip payment_system-master.zip
+   cd payment_system-master
+   ```
 
 
 3. Разворачиваем дамп:
