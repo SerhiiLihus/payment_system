@@ -11,7 +11,9 @@
 
 ***
 
-## Алгоритм извлечения данных [to top](#payment-reporting-system-made-and-tested-on-ubuntu-1404-php-mysql-and-a-little-bit-of-bash--)
+## Алгоритм извлечения данных
+
+[to top](#payment-reporting-system-made-and-tested-on-ubuntu-1404-php-mysql-and-a-little-bit-of-bash--)
 
 Предположим что у нас уже есть две базы в которых есть по таблице и данные таблицы заполнены данными. Отмечу что в файле dump_1.sql есть описание создание баз, пользователя, прав доступа, таблиц, и заполнение их данными.
 
@@ -56,7 +58,9 @@
    2.6 Закрываем соединение с базой и файлом.  
    
 
-## Инструкция по установке приложения(для тестирования работы программы) [to top](#payment-reporting-system-made-and-tested-on-ubuntu-1404-php-mysql-and-a-little-bit-of-bash--)
+## Инструкция по установке приложения(для тестирования работы программы)
+
+[to top](#payment-reporting-system-made-and-tested-on-ubuntu-1404-php-mysql-and-a-little-bit-of-bash--)
 
 1. Скачиваем приложение
    
@@ -110,7 +114,9 @@
 
 ***
 
-## Планировщик задач [to top](#payment-reporting-system-made-and-tested-on-ubuntu-1404-php-mysql-and-a-little-bit-of-bash--)
+## Планировщик задач
+
+[to top](#payment-reporting-system-made-and-tested-on-ubuntu-1404-php-mysql-and-a-little-bit-of-bash--)
 
 Для того, чтобы осуществить вызов скрипта 1-го числа каждого месяца в 6 часов утра, был использован cron.
 
@@ -138,7 +144,9 @@
 
    Отобразится список задач для данного пользователя из под которого Вы создали данную задачу. Это также будет означать что сама задача была успешно создана.
    
-## Пожелания для улучшения архитектуры [to top](#payment-reporting-system-made-and-tested-on-ubuntu-1404-php-mysql-and-a-little-bit-of-bash--)
+## Пожелания для улучшения архитектуры
+
+[to top](#payment-reporting-system-made-and-tested-on-ubuntu-1404-php-mysql-and-a-little-bit-of-bash--)
 
    Пожелание в основном касается базы данных. Было бы целесообразнее хранить данные две таблицы в одной базе. Но реализовать с добавлением третьей таблицы в которой бы хранились внешние ключи(по принципу многие к 1 так как клиентов много, а платежных систем не так уж много). Данный небольшой импрувмент в дальнейшем может облегчить процесс добавления, обновления и удаления данных(ну и выборки).
 
